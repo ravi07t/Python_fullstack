@@ -100,8 +100,8 @@
             <div class="java-course-container">
                 <div class="java-course-content">
                     <div class="java-course-content-sub1">
-                        <h1><span class="java-course-content-javaspan">Java</span> Course Overview</h1>
-                        <hr class="java-course-line-h1">
+                        <h1 class="uline"><span class="java-course-content-javaspan">Java</span> Course Overview</h1>
+
                         <p>Our Java training in chennai provides a complete, hands-on-learning experience from core
                             java
                             to
@@ -121,8 +121,7 @@
                             <li>REST API creation</li>
                             <li>Real-world projects & practical skills</li>
                         </ul>
-                        <h1>Leaning Process</h1>
-                        <hr class="line_leaning_h1">
+                        <h1 class="uline">Leaning Process</h1>
                     </div>
                 </div>
                 <div class="java-course-img">
@@ -226,11 +225,8 @@
                         <div class="egg egg2"></div>
                         <div class="egg egg3"></div>
                         <div class="egg egg4"></div>
-                        <img src="./images/girl image.png" alt="girl image" class="girl-img">
+                        <img src="./images/reena.png" alt="girl image" class="girl-img">
                     </div>
-
-
-
                 </div>
             </div>
         </section>
@@ -317,20 +313,81 @@
                     <button>Request A Batch</button>
                 </div>
             </div>
+        </section>
 
+        <!-- Login 360 learning experence -->
+        <section>
+            <div class="header">
+                <h2 class="uline">Here <span class="Heading">Login360 Learners</span> Experiences</h2>
+            </div>
+            <div class="middlecontainer">
 
+                <div class="leftimg">
+                    <img class="limg" src="./images/arrow.png" alt="leftarrow">
+                    <button class="arrow arrow-left show" id="leftArrow">&#10094;</button>
+                </div>
 
+                <div class="carousel-container">
 
+                    <div class="carousel-track" id="track">
+                        <div>
+                            <div class="carousel-slide"><img src="./images/person-1.png" alt="Slide 1">
+                                <div class="p-1details">
+                                    <button class="Insta-button">View On Instagram</button>
+                                    <p> <a class="anchor" href=""><B>View Profile </B><span><i
+                                                    class="fa-solid fa-angles-right"></i></span></a></p>
+                                </div>
 
+                            </div>
+                        </div>
+                        <div class="carousel-slide"><img src="./images/person-2.png" alt="Slide 2">
+                            <div class="p-1details">
+                                <button class="Insta-button">View On Instagram</button>
+                                <p> <a class="anchor" href=""><B>View Profile </B><span><i
+                                                class="fa-solid fa-angles-right"></i></span></a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide"><img src="./images/person-1.png" alt="Slide 3">
+                            <div class="p-1details">
+                                <button class="Insta-button">View On Instagram</button>
+                                <p> <a class="anchor" href=""><B>View Profile </B><span><i
+                                                class="fa-solid fa-angles-right"></i></span></a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide"><img src="./images/person-2.png" alt="Slide 4">
+                            <div class="p-1details">
+                                <button class="Insta-button">View On Instagram</button>
+                                <p> <a class="anchor" href=""><B>View Profile </B><span><i
+                                                class="fa-solid fa-angles-right"></i></span></a></p>
+                            </div>
+                        </div>
+                        <div class="carousel-slide"><img src="./images/person-1.png   " alt="Slide 5">
+                            <div class="p-1details">
+                                <button class="Insta-button">View On Instagram</button>
+                                <p> <a class="anchor" href=""><B>View Profile </B><span><i
+                                                class="fa-solid fa-angles-right"></i></span></a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="righimg">
+                    <img class="rimg" src="./images/rightarrow.png" alt="rightarrow">
+                    <button class="arrow arrow-right show" id="rightArrow">&#10095;</button>
+                </div>
 
-
+            </div>
+            <div class="dots-container">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <!-- <div class="dots"></div> -->
 
         </section>
+
         <!-- Placement progress works -->
         <section>
-            <h2>How Our <span>Placement Process</span> Works</h2>
-            <div class="underline"></div>
-
+            <h2 class="uline">How Our <span>Placement Process</span> Works</h2>
             <div class="container">
                 <div class="step-group">
                     <div class="step-box">
@@ -404,28 +461,10 @@
 
         </section>
 
-        <!-- java course syllabus -->
-        <section>
-
-        </section>
-
-        <!-- Batch shedule -->
-        <section>
-
-        </section>
-        <!-- Login 360 learning experence -->
-        <section>
-
-        </section>
-        <!-- Placement progress works -->
-        <section>
-
-        </section>
 
         <!-- placed student section -->
         <section class="placed-student-section">
-            <h1 class="placed-student-section-headline">Your Seniors Got Placed.It's <span>Your Turn Now</span></h1>
-            <hr class="placed-student-section-h1-line">
+            <h1 class="placed-student-section-headline uline">Your Seniors Got Placed.It's <span>Your Turn Now</span></h1>
             <div class="placed-student-section-main-container">
                 <div class="placed-student-section-sub-container">
                     <h1>Congratulations</h1>
@@ -499,46 +538,7 @@
 
     </main>
 
-    <script>
-        const targetTime = new Date("2025-06-11T22:00:00").getTime();
-
-        function formatTwoDigits(num) {
-            return num.toString().padStart(2, '0').split('');
-        }
-
-        function updateCountdown() {
-            const now = new Date().getTime();
-            const remaining = targetTime - now;
-
-            if (remaining <= 0) {
-                clearInterval(timer);
-
-                // Set all digits to 0
-                ['hour1', 'hour2', 'min1', 'min2', 'sec1', 'sec2'].forEach(id => {
-                    document.getElementById(id).textContent = '0';
-                });
-
-                return;
-            }
-
-            const hours = Math.floor((remaining / (1000 * 60 * 60)));
-            const minutes = Math.floor((remaining % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((remaining % (1000 * 60)) / 1000);
-
-            const [h1, h2] = formatTwoDigits(hours);
-            const [m1, m2] = formatTwoDigits(minutes);
-            const [s1, s2] = formatTwoDigits(seconds);
-
-            document.getElementById('hour1').textContent = h1;
-            document.getElementById('hour2').textContent = h2;
-            document.getElementById('min1').textContent = m1;
-            document.getElementById('min2').textContent = m2;
-            document.getElementById('sec1').textContent = s1;
-            document.getElementById('sec2').textContent = s2;
-        }
-
-        const timer = setInterval(updateCountdown, 1000);
-        updateCountdown();
+    <script src="./script.js">
     </script>
 
 

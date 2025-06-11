@@ -8,9 +8,7 @@
   .underline{
       display: none;
   }
-h2{
-    text-align: center;
-}
+
   .step-group {
     width: 90%;
     flex-direction: column;
@@ -74,8 +72,8 @@ h2{
   }
 
   .girl-img{
-    width: 200px;
-    height: 250px;
+    width: 230px;
+    height: 330px;
   }
   .egg-center {
     width: 160px;
@@ -119,7 +117,12 @@ h2{
     flex-direction: column;
     align-items: center;
   }
-
+  .header h2{
+    font-size: 20px;
+  }
+  section h2{
+    font-size: 20px ;
+  }
   .card {
     width: 200px;
     height: 200px;
@@ -193,7 +196,7 @@ h2{
         padding: 0px;
     }
     .btn-enroll{
-        top: -250px;
+        top: -280px;
     }
     .home-form{
         width: 100%;
@@ -210,5 +213,221 @@ h2{
     .home-subheading{
         font-size: 22px;
     }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 40px 20px;
+  }
+
+  .left-arrow, .right-arrow {
+    font-size: 20px;
+    padding: 6px;
+  }
+
+  .leftimg, .rightimg {
+    width: 40px;
+  }
+
+
+  nav img {
+    width: 140px;
+    height: auto;
+  }
+
+  .home-page-section {
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 0;
+  }
+
+  .home-left-content,
+  .home-right-content {
+    width: 100%;
+    padding: 0;
+  }
+
+  .home-left-content h1 {
+    font-size: 24px;
+  }
+
+  .carousel-container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+
+  .carousel-slide {
+    flex: 0 0 70%;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* You can adjust this if needed */
+    object-fit: cover;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .arrow {
+    font-size: 20px;
+    padding: 6px 10px;
+    top: 50%;
+  }
+
+  .middlecontainer {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .leftimg, .righimg {
+    width: auto;
+  }
+
+  .limg, .rimg {
+    width: 35px;
+    height: 100px;
+  }
+
+  form label {
+    font-size: 14px;
+  }
+
+  input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .p-1details {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .dots-container {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+  
+}
+/*------------------Placed Student Section responsive------------------*/
+@media only screen and (max-width: 768px) {
+  .placed-student-section-headline {
+    font-size: 1rem;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .placed-student-section-h1-line {
+    width: 80%;
+  }
+
+  .placed-student-section-main-container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 10px;
+  }
+
+  .placed-student-section-sub-container {
+    width: 90%;
+    padding: 15px;
+    height: auto;
+  }
+
+  .placed-student-section-submain-container {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .placed-student-section-image-name-container,
+  .placed-student-section-company-container {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .placed-student-section-company-container {
+    gap: 10px;
+  }
+
+  .placed-student-section-company-container img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .today-start-your-carrer-container {
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .today-start-your-carrer-container h1 {
+    font-size: 1.2rem;
+  }
+
+  .limited_seated {
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .limited_seated p {
+    font-size: 1rem;
+  }
+
+  .placed-student-container {
+    width: 90%;
+    padding: 20px 0;
+  }
+
+  .placed-student-box {
+    height: auto;
+    padding: 15px 10px;
+  }
+
+  .placed-student-timer-wrapper {
+    flex-direction: row;
+    gap: 10px;
+  }
+
+  .placed-student-time-block {
+    gap: 4px;
+  }
+
+  .placed-student-digit {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+
+  .placed-student-time-labels {
+    font-size: 12px;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .placed-student-enroll-btn {
+    width: 120px;
+    padding: 12px;
+    font-size: 12px;
+    margin-top: 15px;
+  }
+  .placed-student-section-h1-line {
+    display: none;
+  }
 }
 
