@@ -891,3 +891,304 @@ button {
   }
 }
 /*---------------------------------------------------------------------------*/
+
+
+/*------------------------placed student seclection------------------------*/
+.placed-student-section-headline{
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+.placed-student-section-h1-line{
+     width:40%;
+    height: 2px;                  
+    background-color: #FF7500; 
+    border: none;         
+    border-radius: 5px; 
+    margin-bottom: 13px;
+    margin-top: 10px;
+}
+.placed-student-section-headline span{
+    color:#FF7500;
+}
+.placed-student-section-main-container{
+    width:100%;
+    padding:30px 20px;
+    display:flex;
+    gap:50px;
+}
+.placed-student-section-image-name-container{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.placed-student-section-sub-container{
+    width:40%;
+    padding:10px 0px;
+   background: linear-gradient(to right, #FE4836, #FEB030);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+    border-radius: 20px;
+}
+.placed-student-section-sub-container h1{
+    margin-top: 10px;
+    font-size: 14px;
+    color:#fff;
+}
+.placed-student-section-image-name-container img{
+    width:120px;
+    height:120px;
+    object-fit: cover;
+}
+.placed-student-section-image-name-container{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width:40%;
+}
+.placed-student-section-submain-container{
+    width: 100%;
+    display:flex;
+    padding-left: 10px;
+
+}
+.placed-student-section-company-container p{
+    width:100%;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    color: black;
+}
+.placed-student-section-company-container span{
+    color:#fff;
+}
+.placed-student-section-image-name-container h1{
+    font-size:13px;
+}
+.placed-student-section-company-container img{
+    width:80px;
+    height: 50Px;
+    object-fit: cover;
+}
+.naveenKumar_company img{
+    width:80px;
+    height:80px;
+    object-fit: cover;
+}
+.placed-student-section-company-container{
+    width:50%;
+    /* background-color: #ff9942; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+.placed-student-section-image-name-container h1{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.today-start-your-carrer-container h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+.limited_seated p{
+   font-size: 1.4rem;
+   font-weight: 500;
+   color:#fff;
+}
+.today-start-your-carrer-container{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FF7500;
+    gap:5px;
+    padding:30px 0px;
+}
+.placed-student-enroll-btn{
+    width:90px;
+    padding:10px;
+    font-size:11px;
+    color:white;
+    background-color: blue;
+    font-weight: 700;
+}
+/*----------------------------------placed-student-timer-----------------------------------*/
+.placed-student-container {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.placed-student-box {
+    width: 100%;
+    height: 140px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px var(--login-color);
+    background-color: #fff;
+    padding:10px 0px;
+    
+}
+
+.placed-student-box p {
+    color: var(--login-color);
+    padding: 3px 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.placed-student-label {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+
+.placed-student-timer-wrapper {
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.placed-student-time-block {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.placed-student-digit {
+    width: 30px;
+    height: 30px;
+    font-weight: 500;
+    background-color: var(--login-color);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white) !important;
+}
+
+.placed-student-time-labels {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 13px;
+    padding: 0px 15px;
+    font-weight: 600;
+}
+
+
+/*------------------Placed Student Section responsive------------------*/
+@media only screen and (max-width: 768px) {
+    .placed-student-section-headline {
+        font-size: 1rem;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .placed-student-section-h1-line {
+        width: 80%;
+    }
+
+    .placed-student-section-main-container {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        padding: 20px 10px;
+    }
+
+    .placed-student-section-sub-container {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .placed-student-section-submain-container {
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+    }
+
+    .placed-student-section-image-name-container,
+    .placed-student-section-company-container {
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+
+    .placed-student-section-company-container {
+        gap: 10px;
+    }
+
+    .placed-student-section-company-container img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .today-start-your-carrer-container {
+        padding: 20px 10px;
+        text-align: center;
+    }
+
+    .today-start-your-carrer-container h1 {
+        font-size: 1.2rem;
+    }
+
+    .limited_seated {
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+
+    .limited_seated p {
+        font-size: 1rem;
+    }
+
+    .placed-student-container {
+        width: 90%;
+        padding: 20px 0;
+    }
+
+    .placed-student-box {
+        height: auto;
+        padding: 15px 10px;
+    }
+
+    .placed-student-timer-wrapper {
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    .placed-student-time-block {
+        gap: 4px;
+    }
+
+    .placed-student-digit {
+        width: 28px;
+        height: 28px;
+        font-size: 14px;
+    }
+
+    .placed-student-time-labels {
+        font-size: 12px;
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+
+    .placed-student-enroll-btn {
+        width: 120px;
+        padding: 12px;
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    .placed-student-section-h1-line{
+        display: none;
+    }
+}
+
