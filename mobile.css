@@ -1,3 +1,141 @@
+@media (max-width: 768px) {
+  body {
+    padding: 40px 20px;
+  }
+
+  .syllabus {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+
+  .left-syllabus {
+    width: 90%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .top-left-syllabus,
+  .bottom-left-syllabus {
+    width: 100%;
+  }
+
+  .course-icon {
+    width: 100%;
+    height: auto;
+  }
+
+  .hd1 {
+    width: 150px;
+    height: 30px;
+  }
+
+  .hd1 h3 {
+    font-size: 14px;
+  }
+
+  .para-1 {
+    font-size: 12px;
+  }
+
+  .inner-1 {
+    width: 100%;
+  }
+
+  .girl-img{
+    width: 200px;
+    height: 250px;
+  }
+  .egg-center {
+    width: 160px;
+    height: 215px;
+  }
+  .egg {
+    width: 140px;
+    height: 210px;
+  }
+  .egg-wrapper {
+    width: 130px;
+    height: 300px;
+  }
+
+
+  .right-syllabus {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-curriculum {
+    width: 120px;
+    height: 22px;
+    margin-bottom: 15px;
+  }
+
+  .batch-container {
+    height: auto;
+  }
+
+  .batch-container-inner {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hd2{
+    font-size: 20px;
+  }
+  .batch-options {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  .card h2{
+    font-size: 18px;
+  }
+  .card button{
+    width: 140px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .uline-txt {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  .para-3 {
+    font-size: 16px;
+  }
+
+  .time {
+    font-size: 16px;
+  }
+
+  .batch-options {
+    width: 100%;
+    align-items: center;
+  }
+
+  .discount-box {
+    width: 100%;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .offer-box {
+    width: 100%;
+  }
+
+  .request-btn button {
+    width: 140px;
+    margin: 10px;
+  }
+}
 
 @media screen and (max-width: 768px){
     body{
