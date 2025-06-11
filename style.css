@@ -214,3 +214,287 @@ nav img{
 
 
 /* ------------------------------------------------------- */
+
+
+
+/*---------------------Java Courses Overview------------------------------*/
+.java-course-overview{
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    position: relative;
+}
+.java-course-container{
+    width:100%;
+    height: fit-content;
+    display:flex;
+    justify-content:flex-start;
+   
+}
+.java-course-content{
+    width:60%;
+}
+
+.java-course-img
+{
+    width:30%;
+    position: absolute;
+    right: 8%;
+    top:-8%;
+}
+.java-course-img img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.java-course-content-sub1 h1{
+     font-size: 1.8rem; 
+     margin-bottom: 10px;  
+}
+.java-course-content-sub1 p{
+    width: 90%;
+    font-size: 17px;
+    line-height: 1.4rem;
+    font-weight: 700;
+}
+.java-course-content-sub1 h2{
+    font-size:1.4rem;
+    margin-top: 2%;
+}
+.java-course-content-sub2{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.java-course-content-sub2 ul{
+    margin-top: 3%;
+}
+.java-course-content-sub2 ul li{
+    margin-bottom: 3%;
+    font-size: 17px;
+    font-weight: 600;
+}
+.java-course-content-sub2 h1{
+    margin-right: auto;
+    font-size: 1.8rem;
+    margin-top: 20px;
+}
+.java-course-container-programspan{
+    color:#FF7500;
+    font-weight: 600;
+}
+.java-course-content-javaspan{
+    color:#FF7500;
+}
+.line_leaning_h1{
+    margin-top: 7px;
+    width:33%;
+    height: 3px;                  
+    background-color: #FF7500; 
+    border: none;         
+    border-radius: 5px; 
+    margin-bottom: 13px;
+    margin-right: auto;
+    box-shadow: 
+  rgba(255, 117, 0, 0.25) 0px 54px 55px,
+  rgba(255, 117, 0, 0.12) 0px -12px 30px,
+  rgba(255, 117, 0, 0.12) 0px 4px 6px,
+  rgba(255, 117, 0, 0.17) 0px 12px 13px,
+  rgba(255, 117, 0, 0.09) 0px -3px 5px;
+
+}
+.java-course-line-h1{
+    width:43%;
+    height: 3px;                  
+    background-color: #FF7500; 
+    border: none;         
+    border-radius: 5px; 
+    margin-bottom: 13px;
+    box-shadow: 
+  rgba(255, 117, 0, 0.25) 0px 54px 55px,
+  rgba(255, 117, 0, 0.12) 0px -12px 30px,
+  rgba(255, 117, 0, 0.12) 0px 4px 6px,
+  rgba(255, 117, 0, 0.17) 0px 12px 13px,
+  rgba(255, 117, 0, 0.09) 0px -3px 5px;
+
+}
+
+.learning_process_level{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #FF7500;
+    margin-top: 15px;
+    padding: 33px 0px;
+    border-radius: 20px;
+    color:#FF7500;
+}
+.level_stage{
+    display: flex;
+    gap:30px;
+}
+.level_stage h2{
+    text-transform: uppercase;
+    font-size:1.4rem ;
+    margin-top: 3px;
+}
+.level_stage .fa-solid{
+    font-size:2.5rem ;
+}
+.learning_process_duration{
+    width:100%;   
+    display: flex;
+    justify-content: center;
+    gap:3px;
+    margin-top: 3%;
+}
+.month{
+    padding:20px 0px;
+    padding-left:30px;
+    width:35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap:1px;
+    background-color:#FF953B;
+    color:#fff;
+    box-shadow: 0px 0px 10px gray;
+    }
+.month h2{
+    font-size:1.2rem;
+    margin-bottom:10px;
+    
+}
+.month ul{
+    width:90%;
+    margin-left: auto;
+}
+.month ul li{
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 17px;
+}
+.learning_process_monthly_concept{
+    width:100%;
+    padding-right:10px;
+}
+
+
+/*responsive*/
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+
+  body{
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  .java-course-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .java-course-content {
+    width: 100%;
+  }
+
+  .java-course-img {
+    position: static;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .java-course-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .java-course-content-sub1 h1,
+  .java-course-content-sub2 h1,
+  .java-course-content-sub1 h2 {
+    font-size: 1.5rem;
+  }
+
+  .java-course-content-sub1 p,
+  .java-course-content-sub2 ul li {
+    font-size: 15px;
+    line-height: 1.5rem;
+  }
+
+  .java-course-line-h1 {
+    width: 36%;
+  }
+  .line_leaning_h1{
+    width:27%;
+  }
+
+  .learning_process_level {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .level_stage {
+    gap: 15px;
+  }
+
+  .level_stage h2 {
+    font-size: 1.2rem;
+  }
+
+  .level_stage .fa-solid {
+    font-size: 2rem;
+  }
+
+  .learning_process_duration {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .month {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .month h2 {
+    font-size: 1.2rem;
+  }
+
+  .month ul li {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .java-course-content-sub1 h1,
+  .java-course-content-sub2 h1,
+  .java-course-content-sub1 h2 {
+    font-size: 1.3rem;
+  }
+
+  .java-course-content-sub1 p,
+  .java-course-content-sub2 ul li {
+    font-size: 14px;
+  }
+
+  .java-course-line-h1 {
+    width: 85%;
+    height: 2px;
+  }
+  .line_leaning_h1{
+    width:64%;
+    height: 2px;
+  }
+  .level_stage {
+    gap: 10px;
+  }
+
+  .level_stage h2 {
+    font-size: 1rem;
+  }
+
+  .level_stage .fa-solid {
+    font-size: 1.5rem;
+  }
+}
+/*---------------------------------------------------------------------------*/
