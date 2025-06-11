@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Python Fullstack</title>
     <link rel="stylesheet" href="./style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/6c8302e732.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./mobile.css" type="text/css">
     <script src="https://kit.fontawesome.com/6bc40bd3d2.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6d5dd140ae.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -18,52 +20,79 @@
         <!-- Home page -->
         <section class="home-page-section">
             <div class="home-left-content">
-                <h1>Become a <span>JAVA DEVELOPER</span></h1>
-                <h4>Learn Java, Build Your Future</h4>
-                <p>With our expert-led Java course designed to equip you with in-demand programming skills. From
+                <h1 class="home-heading">Become a <span class="home-heading-span">JAVA DEVELOPER</span></h1>
+                <h4 class="home-subheading">Learn Java, Build Your Future</h4>
+                <p class="home-paragraph">With our expert-led Java course designed to equip you with in-demand
+                    programming skills. From
                     foundational concepts to advanced development, this course offers a complete learning path,
                     preparing you for real-world software challenges and career success.</p>
-                <div>
-                    <h3><del>₹ 20,000</del></h3>
-                    <h3>Offer : 50%</h3>
-                </div>
-                <div>
-                    <h3>₹ 9,999</h3>
-                </div>
-                <div>
-                    timer
+                <div class="home-price-overall-container">
+                    <div class="home-price-container">
+                        <h3 class="delete-price"><del>₹ 20,000</del></h3>
+                        <h3 class="offer-price">Offer : 50%</h3>
+                    </div>
+                    <button class="btn-enroll">Enroll Now</button>
+                    <div class="offer-container-price">
+                        <h3 class="offer-actual-price">₹ 9,999</h3>
+                    </div>
+                    <div class="timer-overall-container">
+                        <div class="timer-subcontainer">
+                            <p><i class="fa-solid fa-stopwatch"></i> <span class="timer-paragraph">Offer End Soon</span>
+                            </p>
+                            <div class="counter-container">
+                                <div class="counter-subbox">
+                                    <p class="number-box">0</p>
+                                    <p class="number-box">1</p>
+                                </div>
+                                <div class="counter-subbox">
+                                    <p class="number-box">0</p>
+                                    <p class="number-box">1</p>
+                                </div>
+                                <div class="counter-subbox">
+                                    <p class="number-box">0</p>
+                                    <p class="number-box">1</p>
+                                </div>
+
+                            </div>
+                            <div class="couter-text">
+                                <p>Hr</p>
+                                <p>Min</p>
+                                <p>Sec</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="home-right-content">
-                <form action="">
-                    <h5>Are You Interested ? Apply Now</h5>
-                    <label for="">Name</label><br><br>
+                <form action="" class="home-form">
+                    <h3>Are You Interested ? Apply Now</h3>
+                    <label class="form-label" for="">Name</label><br>
                     <input type="text"><br><br>
 
-                    <label for="">Email</label><br><br>
+                    <label class="form-label" for="">Email</label><br>
                     <input type="email"><br><br>
 
-                    <label for="">Phone Number</label><br><br>
+                    <label class="form-label" for="">Phone Number</label><br>
                     <input type="number"><br><br>
 
-                    <label for="">Select Branch</label><br><br>
+                    <label class="form-label" for="">Select Branch</label><br>
                     <select name="" id="">
                         <option value="">Chennai</option>
                         <option value="">Coimbatore</option>
                     </select><br><br>
-                    <label for="">Select Course</label><br><br>
+
+                    <label class="form-label" for="">Select Course</label><br>
                     <select name="" id="">
                         <option value="">Java Fullstack</option>
                         <option value="">Python Fullstack</option>
                     </select>
+                    <div class="btn-div">
+                        <button class="btn-submit">Submit</button>
+                    </div>
                 </form>
+                    <img src="./images/Ellipse 9.png" alt="form image" class="img-ellipse" width="300" height="500">
             </div>
 
-        </section>
-
-        <!-- Java course overview -->
-        <section>
-            <h1>Java Fullstack</h1>
         </section>
 
         <!-- java course syllabus -->
@@ -192,17 +221,111 @@
                     <button>Request A Batch</button>
                 </div>
             </div>
-            
-
-
-
-
-
-
 
         </section>
 
+        <section class="java-course-overview">
 
+            <div class="java-course-container">
+                <div class="java-course-content">
+                    <div class="java-course-content-sub1">
+                        <h1><span class="java-course-content-javaspan">Java</span> Course Overview</h1>
+                        <hr class="java-course-line-h1">
+                        <p>Our Java training in chennai provides a complete, hands-on-learning experience from core java
+                            to
+                            advanced frameworks like <span class="java-course-container-programspan">Spring Boot</span>
+                            . Ideal for all levels, the course
+                            prepares
+                            you for real-world development roles.</p>
+                        <h2>what You'll Learn:</h2>
+                    </div>
+                    <div class="java-course-content-sub2">
+                        <ul>
+                            <li>Core Java & OOP concepts</li>
+                            <li>JSP & Servlets for web development</li>
+                            <li>Spring Boot for backend applications</li>
+                            <li>JDBC for database integration</li>
+                            <li>REST API creation</li>
+                            <li>Real-world projects & practical skills</li>
+                        </ul>
+                        <h1>Leaning Process</h1>
+                        <hr class="line_leaning_h1">
+                    </div>
+                </div>
+                <div class="java-course-img">
+                    <img src="./images/java_course_overview.png" alt="Java_Course">
+                </div>
+            </div>
+
+            <div class="learning_process">
+                <div class="learning_process_level">
+                    <div class="level_stage fundemental_level">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <h2>Fundementals</h2>
+
+                    </div>
+                    <div class="level_stage intermediate_level">
+                        <i class="fa-solid fa-gear"></i>
+                        <h2>Intermediate</h2>
+                    </div>
+                    <div class="level_stage advance_level">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        <h2>Advanced</h2>
+                    </div>
+                </div>
+
+                <div class="learning_process_duration">
+                    <div class="month month1">
+                        <h2>Month 1</h2>
+                        <div class="learning_process_monthly_concept">
+                            <ul>
+                                <li>Introduction to Java</li>
+                                <li>Basic syntax</li>
+                                <li>Variables and data types</li>
+                                <li>Control structures</li>
+                                <li>Introduction to Object-Oriented Programming (OOP)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="month month2">
+                        <h2>Month 2</h2>
+                        <div class="learning_process_monthly_concept">
+                            <ul>
+                                <li>Advanced oop concepts (Inheritance, Polymorphism)</li>
+                                <li>Collections framework</li>
+                                <li>Exception handling</li>
+                                <li>File I/O</li>
+                                <li>Java libraies</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="month month3">
+                        <h2>Month 3</h2>
+                        <div class="learning_process_monthly_concept">
+                            <ul>
+                                <li>Multhi-threading and concurrency</li>
+                                <li>Networking in Java</li>
+                                <li>Final project or assignment</li>
+                                <li>Course review & wrap-up</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </section>
+
+        <!-- java course syllabus -->
+        <section>
+
+        </section>
+
+        <!-- Batch shedule -->
+        <section>
+
+        </section>
         <!-- Login 360 learning experence -->
         <section>
 
@@ -267,3 +390,4 @@
 </body>
 
 </html>
+
