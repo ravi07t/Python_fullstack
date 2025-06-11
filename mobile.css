@@ -1,0 +1,45 @@
+
+@media screen and (max-width: 768px){
+    body{
+        padding: 50px 10px;
+    }
+    nav{
+        margin-bottom: 20px;
+    }
+    .home-page-section{
+        flex-direction: column;
+    }
+    .home-left-content{
+        width: 100%;
+        padding: 0px;
+    }
+    .home-price-container {
+        width: 100%;
+    }
+    .offer-container-price{
+        width: 100%;
+    }
+    .home-right-content{
+        width: 100%;
+        padding: 0px;
+    }
+    .btn-enroll{
+        top: -250px;
+    }
+    .home-form{
+        width: 100%;
+    }
+    .img-ellipse{
+        height: 480px;
+    }
+    .home-heading{
+        font-size: 20px;
+    }
+    .home-heading-span {
+        font-size: 30px;
+    }
+    .home-subheading{
+        font-size: 22px;
+    }
+}
+

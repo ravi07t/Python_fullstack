@@ -3,10 +3,16 @@
     padding: 0px;
     box-sizing: border-box;
 }
+:root{
+    --login-color: #FF7B07;
+    --offer-blue: #0048FF;
+    --color-white: #FFFFFF;
+}
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 80px 100px;
 }
+/* -----------------------Home page-------------------------- */
 nav{
     width: 100%;
     /* height: 50px; */
@@ -27,12 +33,184 @@ nav img{
 
 }
 .home-left-content{
-    width: 50%;
+    width: 60%;
     height: fit-content;
     padding: 50px;
 }
+.home-heading{
+    font-size: 40px;
+}
+.home-heading-span{
+    color: var(--login-color);
+}
+.home-subheading{
+    font-size: 30px;
+}
+.home-paragraph{
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 1.3;
+    color: #7A7676;
+    font-weight: 500;
+}
+.home-price-overall-container{
+    position: relative;
+}
+.home-price-container{
+    width: 400px;
+    height: 60px;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.delete-price{
+    font-size: 35px;
+    color: var(--login-color);
+    font-weight: 500;
+}
+.offer-price{
+    font-size: 30px;
+    color: var(--offer-blue);
+}
+.offer-container-price{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+}
+.offer-actual-price{
+    padding: 0px 15px;
+    border-radius: 7px;
+    background-color: var(--login-color);
+    display: inline;
+    font-size: 35px;
+    color: var(--color-white);
+    font-weight: 500;
+    text-align: center;
+}
+.btn-enroll{
+    padding: 10px 15px;
+    background-color: var(--offer-blue);
+    border: none;
+    color: var(--color-white);
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    position: absolute;
+    right: 10px;
+    top: 37px;
+}
+.timer-overall-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.timer-subcontainer{
+    width: 320px;
+    height: 110px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px var(--login-color);
+}
+.timer-subcontainer p{
+    color: var(--login-color);
+    padding: 3px 0px;
+}
+.timer-paragraph{
+    font-size: 13px;
+    font-weight: 500;
+    padding: 5px 0px;
+}
+.counter-container{
+    width: 100%;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+}
+.counter-subbox{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  
+}
+.number-box{
+    width: 30px;
+    height: 30px;
+    font-weight: 500;
+    background-color: var(--login-color);
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white) !important;
+}
+.couter-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 13px;
+    padding: 0px 15px;
+    font-weight: 600;
+}
+
+
 .home-right-content{
-    width: 50%;
+    width: 40%;
     height: fit-content;
-    padding: 50px;
+    padding: 20px 40px;
+    position: relative;
 }
+.home-form{
+    width: 380px;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px gray;
+    background-color: var(--color-white);
+}
+.home-form h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.home-form input, select{
+    width: 100%;
+    margin: 5px 0px 0px 0px;
+    padding: 10px;
+    border: 1px solid rgb(210, 206, 206);
+    border-radius: 4px;
+ 
+}
+.form-label{
+    font-size: 14px;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.btn-submit{
+    padding: 7px 100px;
+    font-size: larger;
+    font-weight: 550;
+    border-radius: 10px;
+    background-color: var(--login-color);
+    border: 2px solid #e76d03;
+    color: var(--color-white);
+}
+.img-ellipse{
+    /* object-fit: cover; */
+    position: absolute;
+    top: 50px;
+    left: -50px;
+    z-index: -1;
+
+}
+
+
+
+
+/* ------------------------------------------------------- */
